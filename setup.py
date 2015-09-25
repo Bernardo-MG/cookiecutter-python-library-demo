@@ -61,7 +61,7 @@ setup(
     package_data={
     },
     version=version_lib,
-    description='Demo for the Cookiecutter Python Library project',
+    description='Demo for the Cookiecutter Library project',
     author='Bernardo Martínez Garrido',
     author_email='programming@wandrell.com',
     license='MIT',

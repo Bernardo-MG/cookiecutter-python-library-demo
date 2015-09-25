@@ -111,11 +111,13 @@ html_theme_options = {
     'supported_list': ['Python 2.6', 'Python 2.7', 'Python 3.2', 'Python 3.3',
                        'Python 3.4', 'pypy', 'pypy3'],
     'releases_repos': [
-        ('Pypi', 'https://pypi.python.org/pypi/cookiecutter-python-library-demo')],
+        ('Pypi',
+         'https://pypi.python.org/pypi/cookiecutter-python-library-demo')],
     'general_info_links': [('Acquire', './acquire.html'),
                            ('Usage', './usage.html')],
     'navbar_links': [('Documentation', [('Acquire', './acquire.html'),
-                                        ('Usage', './usage.html')])],
+                                        ('Usage', './usage.html')]),
+                     ('Info and Reports', [('Reports', './reports.html')])],
 }
 
 # Output file base name for HTML help builder.
@@ -147,7 +149,7 @@ man_pages = [
 # List of Texinfo documents.
 texinfo_documents = [
     (master_doc, project, '%s Documentation' % project,
-     ','.join(authors), project, 'Demo for the Cookiecutter Python Library project',
+     ','.join(authors), project, 'Demo for the Cookiecutter Library project',
      'Miscellaneous'),
 ]
 
