@@ -147,7 +147,7 @@ man_pages = [
 # List of Texinfo documents.
 texinfo_documents = [
     (master_doc, project, '%s Documentation' % project,
-     ','.join(authors), project, 'Demo for the Cookiecutter Python Library Demo project',
+     ','.join(authors), project, 'Demo for the Cookiecutter Python Library project',
      'Miscellaneous'),
 ]
 
