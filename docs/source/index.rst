@@ -1,5 +1,5 @@
 ===============================
-cookiecutter-python-library-demo
+Cookiecutter Python Library Demo
 ===============================
 
 This is the documentation for a Python library. Change all the placeholder

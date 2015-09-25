@@ -33,7 +33,7 @@ def read(*names, **kwargs):
     ).read()
 
 # Gets the version for the source folder __init__.py file
-with open('library/__init__.py', 'rb',
+with open('cookiecutter-python-library-demo/__init__.py', 'rb',
           encoding='utf-8') as f:
     version_lib = f.read()
     version_lib = _version_re.search(version_lib).group(1)
@@ -55,18 +55,18 @@ class _ToxTester(test_command):
 
 
 setup(
-    name='library',
+    name='cookiecutter-python-library-demo',
     packages=find_packages(),
     include_package_data=True,
     package_data={
     },
     version=version_lib,
-    description='Demo for the Cookicutter Python Library project',
+    description='Demo for the Cookiecutter Python Library Demo project',
     author='Bernardo Mart\xednez Garrido',
     author_email='programming@wandrell.com',
     license='MIT',
     url='https://github.com/bernardo-mg/cookiecutter-python-library-demo',
-    download_url='https://pypi.python.org/pypi/library',
+    download_url='https://pypi.python.org/pypi/cookiecutter-python-library-demo',
     keywords=[],
     platforms='any',
     classifiers=[

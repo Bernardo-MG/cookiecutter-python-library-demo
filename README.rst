@@ -1,5 +1,5 @@
 ===============================
-cookiecutter-python-library-demo
+Cookiecutter Python Library Demo
 ===============================
 
 This is a project created with the `Cookiecutter Python Library
@@ -14,16 +14,16 @@ the `Cookiecutter Python Library
 this will set up the initial project according to a few pieces of data it will
 ask for.
 
-.. image:: https://badge.fury.io/py/library.svg
-    :target: https://pypi.python.org/pypi/library
-    :alt: cookiecutter-python-library-demo Pypi package page
+.. image:: https://badge.fury.io/py/cookiecutter-python-library-demo.svg
+    :target: https://pypi.python.org/pypi/cookiecutter-python-library-demo
+    :alt: Cookiecutter Python Library Demo Pypi package page
 
-.. image:: https://readthedocs.org/projects/library/badge/?version=latest
-    :target: http://library.readthedocs.org/en/latest/
-    :alt: cookiecutter-python-library-demo latest documentation Status
-.. image:: https://readthedocs.org/projects/library/badge/?version=develop
-    :target: http://library.readthedocs.org/en/develop/
-    :alt: cookiecutter-python-library-demo development documentation Status
+.. image:: https://readthedocs.org/projects/cookiecutter-python-library-demo/badge/?version=latest
+    :target: http://cookiecutter-python-library-demo.readthedocs.org/en/latest/
+    :alt: Cookiecutter Python Library Demo latest documentation Status
+.. image:: https://readthedocs.org/projects/cookiecutter-python-library-demo/badge/?version=develop
+    :target: http://cookiecutter-python-library-demo.readthedocs.org/en/develop/
+    :alt: Cookiecutter Python Library Demo development documentation Status
 
 Features
 --------
@@ -74,7 +74,7 @@ Installing
 The project is offered as a `Pypi package`_, and using pip is the preferred way
 to install it. For this use the following command;
 
-``$ pip install library``
+``$ pip install cookiecutter-python-library-demo``
 
 If manual installation is required, the project includes a setup.py file, along
 a makefile allowing direct installation of the library, which can be done with
@@ -115,8 +115,8 @@ License
 The project has been released under the `MIT License`_.
 
 .. _GitHub project page: https://github.com/bernardo-mg/cookiecutter-python-library-demo
-.. _latest docs: http://library.readthedocs.org/en/latest/
-.. _Pypi package: https://pypi.python.org/pypi/library
+.. _latest docs: http://cookiecutter-python-library-demo.readthedocs.org/en/latest/
+.. _Pypi package: https://pypi.python.org/pypi/cookiecutter-python-library-demo
 .. _MIT License: http://www.opensource.org/licenses/mit-license.php
 .. _project issues tracker: https://github.com/bernardo-mg/cookiecutter-python-library-demo/issues
 .. _Sphinx: http://sphinx-doc.org/

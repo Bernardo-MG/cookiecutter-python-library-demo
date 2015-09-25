@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# cookiecutter-python-library-demo documentation build configuration file.
+# Cookiecutter Python Library Demo documentation build configuration file.
 
 import ast
 import re
@@ -20,7 +20,7 @@ _version_re = re.compile(r'__version__\s+=\s+(.*)')
 here = path.abspath(path.dirname(__file__))
 
 # Gets the version for the source folder __init__.py file
-with open('../../library/__init__.py', 'rb',
+with open('../../cookiecutter-python-library-demo/__init__.py', 'rb',
           encoding='utf-8') as f:
     version_lib = f.read()
     version_lib = _version_re.search(version_lib).group(1)
@@ -29,7 +29,7 @@ with open('../../library/__init__.py', 'rb',
 # -- Code location --------------------------------------------------------
 
 sys.path.append(os.path.abspath('../..'))
-sys.path.append(os.path.abspath('../../library'))
+sys.path.append(os.path.abspath('../../cookiecutter-python-library-demo'))
 
 
 # -- General configuration ------------------------------------------------
@@ -58,7 +58,7 @@ master_doc = 'index'
 autodoc_member_order = 'groupwise'
 
 # General information about the project.
-project = 'cookiecutter-python-library-demo'
+project = 'Cookiecutter Python Library Demo'
 project_safe = project.replace(' ', '_')
 copyright = u'2015, Bernardo Martínez Garrido'
 authors = [u'Bernardo Martínez Garrido']
@@ -147,7 +147,7 @@ man_pages = [
 # List of Texinfo documents.
 texinfo_documents = [
     (master_doc, project, '%s Documentation' % project,
-     ','.join(authors), project, 'Demo for the Cookicutter Python Library project',
+     ','.join(authors), project, 'Demo for the Cookiecutter Python Library Demo project',
      'Miscellaneous'),
 ]
 
