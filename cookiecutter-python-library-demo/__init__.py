@@ -2,7 +2,7 @@
 """
     Cookiecutter Python Library Demo
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Demo for the Cookiecutter Library project
+    Demo for the Cookiecutter Python Library project
     :copyright: (c) 2015 by Bernardo Martínez Garrido
     :license: MIT, see LICENSE for more details.
 """

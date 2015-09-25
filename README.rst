@@ -112,9 +112,9 @@ License
 
 The project has been released under the `MIT License`_.
 
-.. _GitHub project page: https://github.com/bernardo-mg/cookiecutter-python-library-demo
+.. _GitHub project page: https://github.com/Bernardo-MG/cookiecutter-python-library-demo
 .. _latest docs: http://cookiecutter-python-library-demo.readthedocs.org/en/latest/
 .. _Pypi package: https://pypi.python.org/pypi/cookiecutter-python-library-demo
 .. _MIT License: http://www.opensource.org/licenses/mit-license.php
-.. _project issues tracker: https://github.com/bernardo-mg/cookiecutter-python-library-demo/issues
+.. _project issues tracker: https://github.com/Bernardo-MG/cookiecutter-python-library-demo/issues
 .. _Sphinx: http://sphinx-doc.org/

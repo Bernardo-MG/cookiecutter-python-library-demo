@@ -100,14 +100,14 @@ html_theme_options = {
     'keywords': '',
     'author_name': ','.join(authors),
     'author_url': 'https://github.com/Bernardo-MG',
-    'twitter_id': '@bernardo-mg',
+    'twitter_id': '@Bernardo-MG',
     'publish_date': datetime.datetime.now().date(),
     'scm_name': 'Github',
-    'scm_url': 'https://github.com/bernardo-mg/cookiecutter-python-library-demo',
+    'scm_url': 'https://github.com/Bernardo-MG/cookiecutter-python-library-demo',
     'ci_name': 'Travis',
-    'ci_url': 'https://travis-ci.org/bernardo-mg/cookiecutter-python-library-demo',
+    'ci_url': 'https://travis-ci.org/Bernardo-MG/cookiecutter-python-library-demo',
     'issues_name': 'Github',
-    'issues_url': 'https://github.com/bernardo-mg/cookiecutter-python-library-demo/issues',
+    'issues_url': 'https://github.com/Bernardo-MG/cookiecutter-python-library-demo/issues',
     'supported_list': ['Python 2.6', 'Python 2.7', 'Python 3.2', 'Python 3.3',
                        'Python 3.4', 'pypy', 'pypy3'],
     'releases_repos': [
@@ -149,7 +149,7 @@ man_pages = [
 # List of Texinfo documents.
 texinfo_documents = [
     (master_doc, project, '%s Documentation' % project,
-     ','.join(authors), project, 'Demo for the Cookiecutter Library project',
+     ','.join(authors), project, 'Demo for the Cookiecutter Python Library project',
      'Miscellaneous'),
 ]
 
