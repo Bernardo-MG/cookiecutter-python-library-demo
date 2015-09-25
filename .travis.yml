@@ -8,18 +8,22 @@ python:
   - "pypy"
   - "pypy3"
 env:
-  - DEPLOY=false DEPLOY_DOCS=false COVERAGE=false TEST_DOCS=false JYTHON=false PYTHON_VERSION=$TRAVIS_PYTHON_VERSION
+  - PYTHON_VERSION=$TRAVIS_PYTHON_VERSION TEST_DOCS=false JYTHON=false COVERAGE=false DEPLOY_DOCS=false
 matrix:
   include:
+    # Tests and deploys docs
     - python: "2.7"
       env:
-        - TEST_DOCS=true DEPLOY_DOCS=true PULL_REQUEST=$TRAVIS_PULL_REQUEST SCM_BRANCH=$TRAVIS_BRANCH
+        - PYTHON_VERSION=$TRAVIS_PYTHON_VERSION TEST_DOCS=true JYTHON=false COVERAGE=false DEPLOY_DOCS=true PULL_REQUEST=$TRAVIS_PULL_REQUEST SCM_BRANCH=$TRAVIS_BRANCH
+    # Tests docs
     - python: "3.4"
-      env: TEST_DOCS=true
+      env: PYTHON_VERSION=$TRAVIS_PYTHON_VERSION TEST_DOCS=true JYTHON=false COVERAGE=false DEPLOY_DOCS=false
+    # Runs coverage report
     - python: "2.7"
-      env: COVERAGE=true
+      env: PYTHON_VERSION=$TRAVIS_PYTHON_VERSION TEST_DOCS=false JYTHON=false COVERAGE=true DEPLOY_DOCS=false
+    # Runs Jython tests
     - python: "2.7"
-      env: JYTHON=true
+      env: PYTHON_VERSION=$TRAVIS_PYTHON_VERSION TEST_DOCS=false JYTHON=true COVERAGE=false DEPLOY_DOCS=false
 
 before_install:
   - chmod +x ./.scripts/run_tests.sh
