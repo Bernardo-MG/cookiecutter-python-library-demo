@@ -60,7 +60,7 @@ autodoc_member_order = 'groupwise'
 # General information about the project.
 project = 'Cookiecutter Python Library Demo'
 project_safe = project.replace(' ', '_')
-copyright = u'2015, Bernardo Martínez Garrido'
+copyright = u'2016, Bernardo Martínez Garrido'
 authors = [u'Bernardo Martínez Garrido']
 
 # The version info for the project.
@@ -102,14 +102,13 @@ html_theme_options = {
     'author_url': 'https://github.com/Bernardo-MG',
     'twitter_id': '@Bernardo-MG',
     'publish_date': datetime.datetime.now().date(),
+    'years': datetime.datetime.now().year,
     'scm_name': 'Github',
     'scm_url': 'https://github.com/Bernardo-MG/cookiecutter-python-library-demo',
     'ci_name': 'Travis',
     'ci_url': 'https://travis-ci.org/Bernardo-MG/cookiecutter-python-library-demo',
     'issues_name': 'Github',
     'issues_url': 'https://github.com/Bernardo-MG/cookiecutter-python-library-demo/issues',
-    'supported_list': ['Python 2.6', 'Python 2.7', 'Python 3.2', 'Python 3.3',
-                       'Python 3.4', 'pypy', 'pypy3'],
     'releases_repos': [
         ('Pypi',
          'https://pypi.python.org/pypi/cookiecutter-python-library-demo')],

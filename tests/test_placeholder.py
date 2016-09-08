@@ -12,7 +12,6 @@ The following cases are tested:
 
 __author__ = 'Bernardo Martínez Garrido'
 __license__ = 'MIT'
-__status__ = 'Development'
 
 
 class TestPlaceholder(unittest.TestCase):

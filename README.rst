@@ -32,16 +32,19 @@ By default the project comes with the following features:
 - Customized setup.py module to minimize configuration, and using tox for the tests
 - Docs using `Sphinx`_ and the `Sphinx Docs Theme <https://github.com/Bernardo-MG/sphinx-docs-theme>`_
 - Prepared to run tests through tox
-- Prepared to run tests on Python 2.6, 2.7, 3.2, 3.3, 3.4
+- Prepared to run tests on Python 2 and 3
 - Prepared to run tests on pypy and pypy 3
-- Prepared to run tests on Jython
 - Prepared to run coverage tests and integrate with `Coveralls <https://coveralls.io>`_
 - Prepared to run tests for the `Sphinx`_ documentation
 
 Documentation
 -------------
 
-Check the `latest docs`_ for the most current version of the documentation.
+Documentation sources are included with the project, and used to generate the
+documentation sites:
+
+- The `latest docs`_ are always generated for the latest release, kept in the 'master' branch
+- The `development docs`_ are generated from the latest code in the 'develop' branch
 
 You can also create the documentation from the source files, kept in the 'docs'
 folder, with the help of Sphinx. For this use the makefile, or the make.bat
@@ -52,14 +55,12 @@ Prerequisites
 
 The project has been tested in the following versions of the interpreter:
 
-- Python 2.6
 - Python 2.7
-- Python 3.2
 - Python 3.3
 - Python 3.4
+- Python 3.5
 - Pypy
 - Pypy 3
-- Jython
 
 All other dependencies are indicated on the requirements.txt file.
 The included makefile can install them with the command:
@@ -114,6 +115,7 @@ The project has been released under the `MIT License`_.
 
 .. _GitHub project page: https://github.com/Bernardo-MG/cookiecutter-python-library-demo
 .. _latest docs: http://cookiecutter-python-library-demo.readthedocs.org/en/latest/
+.. _development docs: http://cookiecutter-python-library-demo.readthedocs.org/en/develop/
 .. _Pypi package: https://pypi.python.org/pypi/cookiecutter-python-library-demo
 .. _MIT License: http://www.opensource.org/licenses/mit-license.php
 .. _project issues tracker: https://github.com/Bernardo-MG/cookiecutter-python-library-demo/issues
