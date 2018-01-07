@@ -6,7 +6,7 @@ import unittest
 Placeholder tests.
 """
 
-__author__ = 'Bernardo MartÃ­nez Garrido'
+__author__ = 'Bernardo Martínez Garrido'
 __license__ = 'MIT'
 
 

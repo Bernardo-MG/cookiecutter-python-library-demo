@@ -8,7 +8,7 @@ Placeholder classes.
 Replace this module for the actual code.
 """
 
-__author__ = 'Bernardo MartÃ­nez Garrido'
+__author__ = 'Bernardo Martínez Garrido'
 __license__ = 'MIT'
 
 

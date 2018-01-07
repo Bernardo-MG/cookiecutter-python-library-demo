@@ -16,17 +16,15 @@ project according to a few pieces of data it will ask for.
     :target: https://pypi.python.org/pypi/cookiecutter-python-library-demo
     :alt: Cookiecutter Python Library Demo Pypi package page
 
-.. image:: https://readthedocs.org/projects/cookiecutter-python-library-demo/badge/?version=latest
+.. image:: https://img.shields.io/badge/docs-release-blue.svg
     :target: http://docs.bernardomg.com/cookiecutter-python-library-demo
     :alt: Cookiecutter Python Library Demo latest documentation Status
-.. image:: https://readthedocs.org/projects/cookiecutter-python-library-demo/badge/?version=develop
+.. image:: https://img.shields.io/badge/docs-develop-blue.svg
     :target: http://docs.bernardomg.com/development/cookiecutter-python-library-demo
     :alt: Cookiecutter Python Library Demo development documentation Status
 
 Features
 --------
-
-By default the project comes with the following features:
 
 - Travis configuration file
 - Customized setup.py module to minimize configuration, and using tox for the tests
@@ -63,9 +61,10 @@ The project has been tested in the following versions of the interpreter:
 - Pypy 3
 
 All other dependencies are indicated on the requirements.txt file.
-The included makefile can install them with the command:
 
-``$ make requirements``
+These can be installed with:
+
+``$ pip install --upgrade -r requirements.txt``
 
 Installing
 ~~~~~~~~~~

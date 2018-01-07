@@ -60,8 +60,8 @@ autodoc_member_order = 'groupwise'
 # General information about the project.
 project = 'Cookiecutter Python Library Demo'
 project_safe = project.replace(' ', '_')
-copyright = u'2018, Bernardo MartÃ­nez Garrido'
-authors = [u'Bernardo MartÃ­nez Garrido']
+copyright = u'2018, Bernardo Martínez Garrido'
+authors = [u'Bernardo Martínez Garrido']
 
 # The version info for the project.
 #
