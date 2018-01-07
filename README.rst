@@ -17,10 +17,10 @@ project according to a few pieces of data it will ask for.
     :alt: Cookiecutter Python Library Demo Pypi package page
 
 .. image:: https://readthedocs.org/projects/cookiecutter-python-library-demo/badge/?version=latest
-    :target: http://cookiecutter-python-library-demo.readthedocs.org/en/latest/
+    :target: http://docs.bernardomg.com/cookiecutter-python-library-demo
     :alt: Cookiecutter Python Library Demo latest documentation Status
 .. image:: https://readthedocs.org/projects/cookiecutter-python-library-demo/badge/?version=develop
-    :target: http://cookiecutter-python-library-demo.readthedocs.org/en/develop/
+    :target: http://docs.bernardomg.com/development/cookiecutter-python-library-demo
     :alt: Cookiecutter Python Library Demo development documentation Status
 
 Features
@@ -47,7 +47,7 @@ documentation sites:
 - The `development docs`_ are generated from the latest code in the 'develop' branch
 
 You can also create the documentation from the source files, kept in the 'docs'
-folder, with the help of Sphinx. For this use the makefile, or the make.bat
+folder, with the help of `Sphinx`_. For this use the makefile, or the make.bat
 file, contained on that folder.
 
 Prerequisites
@@ -56,9 +56,9 @@ Prerequisites
 The project has been tested in the following versions of the interpreter:
 
 - Python 2.7
-- Python 3.3
 - Python 3.4
 - Python 3.5
+- Python 3.6
 - Pypy
 - Pypy 3
 
@@ -75,17 +75,28 @@ to install it. For this use the following command;
 
 ``$ pip install cookiecutter-python-library-demo``
 
-If manual installation is required, the project includes a setup.py file, along
-a makefile allowing direct installation of the library, which can be done with
-the following command:
+If needed, manual installation is possible:
 
-``$ make install``
+``$ python setup.py install``
 
 Usage
 -----
 
-The application has been coded in Python, without using any particular
+The application has been coded in Python, and does not require any particular
 framework.
+
+Testing
+-------
+
+The tests included with the project can be run with:
+
+``$ python setup.py test``
+
+This will delegate the execution to tox.
+
+It is possible to run just one of the test profiles, in this case the py36 profile:
+
+``$ python setup.py test -p "py36"``
 
 Collaborate
 -----------
@@ -114,8 +125,8 @@ License
 The project has been released under the `MIT License`_.
 
 .. _GitHub project page: https://github.com/Bernardo-MG/cookiecutter-python-library-demo
-.. _latest docs: http://cookiecutter-python-library-demo.readthedocs.org/en/latest/
-.. _development docs: http://cookiecutter-python-library-demo.readthedocs.org/en/develop/
+.. _latest docs: http://docs.bernardomg.com/cookiecutter-python-library-demo
+.. _development docs: http://docs.bernardomg.com/development/cookiecutter-python-library-demo
 .. _Pypi package: https://pypi.python.org/pypi/cookiecutter-python-library-demo
 .. _MIT License: http://www.opensource.org/licenses/mit-license.php
 .. _project issues tracker: https://github.com/Bernardo-MG/cookiecutter-python-library-demo/issues

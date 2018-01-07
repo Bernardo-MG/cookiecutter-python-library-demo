@@ -60,8 +60,8 @@ autodoc_member_order = 'groupwise'
 # General information about the project.
 project = 'Cookiecutter Python Library Demo'
 project_safe = project.replace(' ', '_')
-copyright = u'2016, Bernardo Martínez Garrido'
-authors = [u'Bernardo Martínez Garrido']
+copyright = u'2018, Bernardo MartÃ­nez Garrido'
+authors = [u'Bernardo MartÃ­nez Garrido']
 
 # The version info for the project.
 #
@@ -116,7 +116,8 @@ html_theme_options = {
                            ('Usage', './usage.html')],
     'navbar_links': [('Documentation', [('Acquire', './acquire.html'),
                                         ('Usage', './usage.html')]),
-                     ('Info and Reports', [('Reports', './reports.html')])],
+                     ('Info and Reports', [('Reports', './reports.html'),
+                                           ('Code docs', './code/index.html')])],
 }
 
 # Output file base name for HTML help builder.

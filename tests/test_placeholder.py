@@ -4,13 +4,9 @@ import unittest
 
 """
 Placeholder tests.
-
-The following cases are tested:
-
-- A placeholder test that is always true passes
 """
 
-__author__ = 'Bernardo Martínez Garrido'
+__author__ = 'Bernardo MartÃ­nez Garrido'
 __license__ = 'MIT'
 
 

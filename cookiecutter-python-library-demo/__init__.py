@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """
     Cookiecutter Python Library Demo
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     Demo for the Cookiecutter Python Library project
-    :copyright: (c) 2016 by Bernardo Martínez Garrido
+    :copyright: (c) 2018 by Bernardo MartÃ­nez Garrido
     :license: MIT, see LICENSE for more details.
 """
 
