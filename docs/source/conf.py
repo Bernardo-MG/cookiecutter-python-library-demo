@@ -105,8 +105,8 @@ html_theme_options = {
     'years': datetime.datetime.now().year,
     'scm_name': 'Github',
     'scm_url': 'https://github.com/Bernardo-MG/cookiecutter-python-library-demo',
-    'ci_name': 'Travis',
-    'ci_url': 'https://travis-ci.org/Bernardo-MG/cookiecutter-python-library-demo',
+    'ci_name': 'Github',
+    'ci_url': 'https://github.com/Bernardo-MG/cookiecutter-python-library-demo/actions',
     'issues_name': 'Github',
     'issues_url': 'https://github.com/Bernardo-MG/cookiecutter-python-library-demo/issues',
     'releases_repos': [
@@ -116,8 +116,7 @@ html_theme_options = {
                            ('Usage', './usage.html')],
     'navbar_links': [('Documentation', [('Acquire', './acquire.html'),
                                         ('Usage', './usage.html')]),
-                     ('Info and Reports', [('Reports', './reports.html'),
-                                           ('Code docs', './code/index.html')])],
+                     ('Info and Reports', [('Code docs', './code/index.html')])],
 }
 
 # Output file base name for HTML help builder.

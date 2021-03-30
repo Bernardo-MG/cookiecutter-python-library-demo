@@ -18,5 +18,4 @@ Features
 
    acquire
    usage
-   reports
    code/index
